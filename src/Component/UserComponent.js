@@ -3,7 +3,7 @@ import {Card,CardBody} from 'reactstrap';
 const UserComponent = ({user})=>{
     return(
         <Card>
-            <img className="image" src={user.avatar_url} />
+            <img className="image" alt={user.name} src={user.avatar_url} />
             <CardBody>
                 <div className="text-primary" >{user.name}</div>
                 <div className="text-primary" >{user.bio}</div>

@@ -1,4 +1,4 @@
-export default {
+const firebaseConfig = {
     apiKey: "AIzaSyBzJg5iCTb5oZcRbRgBm4reXGkXXABvyjc",
     authDomain: "gitdetailsfetcher.firebaseapp.com",
     projectId: "gitdetailsfetcher",
@@ -7,3 +7,4 @@ export default {
     appId: "1:450210476765:web:3cbf1f144ce9b0f9666134",
     measurementId: "G-8EHJM1F7ST"
   };
+  export default firebaseConfig;

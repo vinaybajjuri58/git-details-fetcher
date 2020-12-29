@@ -4,10 +4,10 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css" ;
 
 // React router
-import{BrowserRouter ,Route,Switch,Link } from 'react-router-dom' ;
+import{BrowserRouter ,Route,Switch } from 'react-router-dom' ;
 
 // React Toastify
-import {ToastContainer} from 'react-toastify' ;
+// import {ToastContainer} from 'react-toastify' ;
 import "react-toastify/dist/ReactToastify.min.css" ;
 
 // firebase
