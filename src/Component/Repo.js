@@ -9,6 +9,7 @@ const Repo = ({repo_url})=>{
     }
     useEffect(()=>{
         fetchRepos();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[repo_url])
     return(
         <ListGroup>
